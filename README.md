@@ -57,7 +57,7 @@ API Documentation
 ### Description: Retrieve a list of all users.
 ### Request Parameters: None
 ### Response:
-![image](https://github.com/ShehneelKhan/User-Order-API-using-DRF/assets/45147081/63fbbc9a-a71c-421a-ac56-6396e4feca37)
+![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/bd48f243-fff3-4e2b-bd29-5a359e964078)
 <br><br>
 
 
