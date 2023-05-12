@@ -47,7 +47,9 @@ API Documentation
 
 
 
-**Users** — Retrieve a list of all users
+### Users
+<br><br>
+### Retrieve a list of all users
 <br><br>
 ### Endpoint: api/users/
 ### Method: GET
