@@ -29,7 +29,7 @@ API Documentation
 ### Permissions: This API can be accessed by anyone without authentication.
 ### Request Parameters:
 ### username: A string representing the username of the registered user.
-### email(optional: A string representing the email of the registered user.
+### email(optional): A string representing the email of the registered user.
 ### password: A string representing the password of the registered user.
 ### Response:
 ### If the request data is valid and the user is successfully authenticated, returns a token in JSON format that can be used for further authenticated requests.
@@ -58,7 +58,7 @@ API Documentation
 ### Description: Retrieve a list of all users.
 ### Request Parameters:
 ### username: A string representing the username of the new user.
-### email(optional: A string representing the email of the new user.
+### email(optional): A string representing the email of the new user.
 ### password: A string representing the password of the new user.
 ### Response:
 ![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/bd48f243-fff3-4e2b-bd29-5a359e964078)
