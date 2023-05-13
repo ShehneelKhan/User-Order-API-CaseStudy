@@ -56,8 +56,9 @@ API Documentation
 ### Allowed Roles: Super Admin
 ### Description: Retrieve a list of all users.
 ### Request Parameters:
-### username: A string representing the username of the registered user.
-### password: A string representing the password of the registered user.
+### username: A string representing the username of the new user.
+### email: A string representing the email of the new user.
+### password: A string representing the password of the new user.
 ### Response:
 ![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/bd48f243-fff3-4e2b-bd29-5a359e964078)
 <br><br>
