@@ -79,7 +79,10 @@ API Documentation
 ### Method: GET, POST
 ### Allowed Roles: Owner, Super Admin
 ### Description: Retrieve a list of all orders.
-### Request Parameters: None
+### Request Parameters:
+### name: A string representing the name of the order.
+### description: A string representing the description of the order.
+### price: A decimal value representing the price of the order.
 ### Response:
 ![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/e0c49496-cbe0-41e2-83e9-11a4fea3d653)
 
