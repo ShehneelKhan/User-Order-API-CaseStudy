@@ -52,10 +52,12 @@ API Documentation
 ### Retrieve a list of all users
 <br><br>
 ### Endpoint: api/users/
-### Method: GET
+### Method: GET, POST
 ### Allowed Roles: Super Admin
 ### Description: Retrieve a list of all users.
-### Request Parameters: None
+### Request Parameters:
+### username: A string representing the username of the registered user.
+### password: A string representing the password of the registered user.
 ### Response:
 ![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/bd48f243-fff3-4e2b-bd29-5a359e964078)
 <br><br>
@@ -63,10 +65,9 @@ API Documentation
 
 ### Retrieve a user by ID
 ### Endpoint: api/users/<int:pk>/
-### Method: GET
+### Method: GET, PUT, DELETE
 ### Allowed Roles: Super Admin
 ### Description: Retrieve a user by ID.
-### Request Parameters: None
 ### Response:
 ![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/4dd5cc84-a87d-4773-96d7-a5032e87addd)
 
@@ -75,7 +76,7 @@ API Documentation
 <br><br>
 ### Retrieve a list of all orders
 ### Endpoint: api/orders/
-### Method: GET
+### Method: GET, POST
 ### Allowed Roles: Owner, Super Admin
 ### Description: Retrieve a list of all orders.
 ### Request Parameters: None
@@ -86,10 +87,9 @@ API Documentation
 ### Retrieve an order by ID
 <br><br>
 ### Endpoint: api/orders/<int:pk>/
-### Method: GET
+### Method: GET, PUT, DELETE
 ### Allowed Roles: Owner, Super Admin
 ### Description: Retrieve an order by ID.
-### Request Parameters: None
 ### Response:
 ![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/067d34c5-4caa-4de7-b2d6-f4afdb8f43e4)
 
