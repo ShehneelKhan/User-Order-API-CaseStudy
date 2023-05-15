@@ -29,6 +29,7 @@ API Documentation
 ### Permissions: This API can be accessed by anyone without authentication.
 ### Request Parameters:
 ### username: A string representing the username of the registered user.
+### email(optional): A string representing the email of the registered user.
 ### password: A string representing the password of the registered user.
 ### Response:
 ### If the request data is valid and the user is successfully authenticated, returns a token in JSON format that can be used for further authenticated requests.
@@ -47,50 +48,55 @@ API Documentation
 
 
 
-**Users** — Retrieve a list of all users
+### Users
+<br><br>
+### Retrieve a list of all users
 <br><br>
 ### Endpoint: api/users/
-### Method: GET
+### Method: GET, POST
 ### Allowed Roles: Super Admin
 ### Description: Retrieve a list of all users.
-### Request Parameters: None
+### Request Parameters:
+### username: A string representing the username of the new user.
+### email(optional): A string representing the email of the new user.
+### password: A string representing the password of the new user.
 ### Response:
-![image](https://github.com/ShehneelKhan/User-Order-API-using-DRF/assets/45147081/63fbbc9a-a71c-421a-ac56-6396e4feca37)
+![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/bd48f243-fff3-4e2b-bd29-5a359e964078)
 <br><br>
 
 
 ### Retrieve a user by ID
 ### Endpoint: api/users/<int:pk>/
-### Method: GET
+### Method: GET, PUT, DELETE
 ### Allowed Roles: Super Admin
 ### Description: Retrieve a user by ID.
-### Request Parameters: None
 ### Response:
-![image](https://github.com/ShehneelKhan/User-Order-API-using-DRF/assets/45147081/4da9a128-5b3d-4ae8-a340-a4abf392044b)
-
+![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/4dd5cc84-a87d-4773-96d7-a5032e87addd)
 
 <br><br>
 ### Orders
 <br><br>
 ### Retrieve a list of all orders
 ### Endpoint: api/orders/
-### Method: GET
+### Method: GET, POST
 ### Allowed Roles: Owner, Super Admin
 ### Description: Retrieve a list of all orders.
-### Request Parameters: None
+### Request Parameters:
+### name: A string representing the name of the order.
+### description: A string representing the description of the order.
+### price: A decimal value representing the price of the order.
 ### Response:
-![image](https://github.com/ShehneelKhan/User-Order-API-using-DRF/assets/45147081/9341c3ff-3c97-4be5-a28b-395748ee9435)
+![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/e0c49496-cbe0-41e2-83e9-11a4fea3d653)
 
 <br><br>
 ### Retrieve an order by ID
 <br><br>
 ### Endpoint: api/orders/<int:pk>/
-### Method: GET
+### Method: GET, PUT, DELETE
 ### Allowed Roles: Owner, Super Admin
 ### Description: Retrieve an order by ID.
-### Request Parameters: None
 ### Response:
-![image](https://github.com/ShehneelKhan/User-Order-API-using-DRF/assets/45147081/dc5141d4-bd22-43ec-b91a-4b43ebbede50)
+![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/067d34c5-4caa-4de7-b2d6-f4afdb8f43e4)
 
 
 
@@ -104,7 +110,7 @@ API Documentation
 ### email - The email addresses of the users to retrieve orders for.
 ### Example: /orders/by-emails/?email=john_doe@example.com&jane_doe@example.com
 ### Response:
-![image](https://github.com/ShehneelKhan/User-Order-API-using-DRF/assets/45147081/9bff21fc-8fdc-4957-8072-9d050bb256f8)
+![image](https://github.com/ShehneelKhan/User-Order-API-CaseStudy/assets/45147081/a700acb3-7d7b-45f7-9f89-ce7fceb6161f)
 
 
 
